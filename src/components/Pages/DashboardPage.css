@@ -1,0 +1,60 @@
+/* .dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f7faff;
+  min-height: 100vh;
+}
+.dashboard-container {
+  display: flex;
+}
+
+.dashboard-main > * {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-side > * {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+} */
+
+.dashboard-container {
+  display: flex;
+  width: 100%;
+  max-width: 1440px; /* ensures it fits on most screens */
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f7f9fc;
+  margin: 0 auto; /* centers the dashboard */
+}
+
+.main-section {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.left-panel {
+  flex: 0 0 55%;
+  padding: 20px;
+  /* overflow-y: auto; */
+}
+
+.right-panel {
+  flex: 0 0 45%;
+  
+  padding: 20px 20px 20px 10px;
+  /* overflow-y: auto; */
+}
+
+/* Remove scrollbars and prevent horizontal overflow */
+
+* {
+  box-sizing: border-box;
+}

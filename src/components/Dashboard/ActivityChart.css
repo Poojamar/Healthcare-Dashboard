@@ -1,0 +1,23 @@
+.activity-chart {
+  margin-top: 1rem;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.bar {
+  width: 10px;
+  background-color: #00aaff;
+  border-radius: 4px;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}

@@ -1,0 +1,104 @@
+.body-status-container {
+  width: 40%;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+}
+
+.body-status-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.body-status-main {
+  display: flex;
+  gap: 20px;
+}
+
+.body-image {
+  position: relative;
+}
+
+.body-img {
+  width: 160px;
+}
+
+.label {
+  position: absolute;
+  font-size: 12px;
+  background-color: #f1f3f5;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-weight: 500;
+}
+
+.heart {
+  top: 25%;
+  left: 60%;
+  color: #fff;
+  background-color: #3f3dff;
+}
+
+.leg {
+  top: 75%;
+  left: -50px;
+  background-color: #00e0ff;
+  color: #000;
+}
+
+.status-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.bar {
+  width: 100px;
+  height: 6px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.bar.red { background-color: #f45b69; }
+.bar.green { background-color: #26de81; }
+.bar.orange { background-color: #f39c12; }
+
+.activity-section {
+  margin-top: 30px;
+}
+
+.activity-chart {
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+#searchs-input{
+  background-color: #a7a7a7;
+  flex: none;
+  width: 300px;
+  position: relative;
+  background: transparent;
+
+}
+.search-icon{
+  position: absolute;
+  right:655px ;
+  top: 55px;
+  color: rgb(1, 1, 1);
+}

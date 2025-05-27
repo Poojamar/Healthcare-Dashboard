@@ -1,0 +1,53 @@
+.schedule-container {
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+
+.day-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  
+}
+
+.day-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.schedule-cards {
+ align-items: flex-start;
+
+}
+
+.card {
+  background-color: #e7e7e7;
+  border-radius: 15px;
+  padding: 15px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.card.purple {
+  background-color: #dcdcff;
+}
+
+.card h4 {
+  font-size: 12px;
+  margin: 0 0 3px 0;
+}
+
+.card p {
+  font-size: 8px;
+  margin: 0;
+}
